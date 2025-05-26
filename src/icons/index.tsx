@@ -52,9 +52,14 @@ import ChatIcon from "./chat.svg";
 import MoreDotIcon from "./more-dot.svg";
 import BellIcon from "./bell.svg";
 import UserLine from './user-line.svg'
+import Payment from './payment.svg'
+import Eye from './eye.svg'
+import uploadFile from './uploadFile.png'
 
 export {
+  uploadFile,
   DownloadIcon,
+  Payment,
   BellIcon,
   MoreDotIcon,
   FileIcon,
@@ -107,5 +112,6 @@ export {
   HorizontaLDots,
   ChevronUpIcon,
   ChatIcon,
-  UserLine
+  UserLine,
+  Eye
 };

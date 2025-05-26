@@ -16,6 +16,7 @@ const DropzoneComponent: React.FC = () => {
       "image/jpeg": [],
       "image/webp": [],
       "image/svg+xml": [],
+      
     },
   });
   return (

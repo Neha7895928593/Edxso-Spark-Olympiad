@@ -12,11 +12,14 @@ import {
   HorizontaLDots,
   ListIcon,
   PageIcon,
+  Payment,
   PieChartIcon,
   PlugInIcon,
   TableIcon,
   UserCircleIcon,
   UserLine,
+  InfoIcon
+  
   
 } from "../icons/index";
 import SidebarWidget from "./SidebarWidget";
@@ -43,6 +46,16 @@ const navItems: NavItem[] = [
     icon: <UserCircleIcon />,
     name: "User Profile",
     path: "/profile",
+  },
+  {
+    icon: <UserCircleIcon />,
+    name: "Onboarding",
+    path: "/school/id/onboarding",
+  },
+  {
+    icon: <GridIcon />,
+    name: "Exam",
+    path: "/school/exam",
   },
 
   // {
@@ -72,6 +85,18 @@ const navItems: NavItem[] = [
       { name: "Register Student", path: "/error-404", pro: false },
     ],
   },
+  {
+      icon: <ListIcon/>,
+      name: "Credentials",
+      path: "/blank",
+     },
+     {
+      icon: <InfoIcon/>,
+      name: "Payments",
+      path: "/form",
+     },
+ 
+    
 ];
 
 const othersItems: NavItem[] = [
@@ -323,7 +348,7 @@ const AppSidebar: React.FC = () => {
           {isExpanded || isHovered || isMobileOpen ? (
             <>
             <Image
-              src="/images/logo/logo-icon.svg"
+              src="/images/logo/logo.png"
               alt="Logo"
               width={32}
               height={32}
@@ -345,7 +370,7 @@ const AppSidebar: React.FC = () => {
             </>
           ) : (
             <Image
-              src="/images/logo/logo-icon.svg"
+              src="/images/logo/logoh.svg"
               alt="Logo"
               width={32}
               height={32}
